@@ -1,0 +1,153 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns:atg="http://atg.xbox.com" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Assets">
+      <UniqueIdentifier>{ed0b04a6-fecd-4a2c-a462-59a8f4639f36}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{8e114980-c1a3-4ada-ad7c-83caadf5daeb}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe</Extensions>
+    </Filter>
+    <Filter Include="Assets\modelData">
+      <UniqueIdentifier>{06086914-6aa4-4cad-9b07-6f9d357f04df}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Assets\sprite">
+      <UniqueIdentifier>{a6ce300a-b532-440d-b914-b4661d3015ad}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="stdafx.cpp" />
+    <ClCompile Include="Game.cpp" />
+    <ClCompile Include="Player.cpp" />
+    <ClCompile Include="Mogura.cpp" />
+    <ClCompile Include="MoguraGenerator.cpp" />
+    <ClCompile Include="ground.cpp" />
+    <ClCompile Include="StartTitle.cpp" />
+    <ClCompile Include="GameScene.cpp" />
+    <ClCompile Include="StageClare.cpp" />
+    <ClCompile Include="GameOver.cpp" />
+    <ClCompile Include="GameManager.cpp" />
+    <ClCompile Include="Descript.cpp" />
+    <ClCompile Include="PracticalMode.cpp" />
+    <ClCompile Include="Level.cpp" />
+    <ClCompile Include="KingMogura.cpp" />
+    <ClCompile Include="Metooru.cpp" />
+    <ClCompile Include="Zaku.cpp" />
+    <ClCompile Include="PracticalEND.cpp" />
+    <ClCompile Include="otalScore.cpp" />
+    <ClCompile Include="FeintMogura.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <CLInclude Include="resource.h">
+      <Filter>Resource Files</Filter>
+    </CLInclude>
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="Game.h" />
+    <ClInclude Include="Player.h" />
+    <ClInclude Include="Mogura.h" />
+    <ClInclude Include="MoguraGenerator.h" />
+    <ClInclude Include="ground.h" />
+    <ClInclude Include="StartTitle.h" />
+    <ClInclude Include="GameScene.h" />
+    <ClInclude Include="StageClare.h" />
+    <ClInclude Include="GameOver.h" />
+    <ClInclude Include="GameManager.h" />
+    <ClInclude Include="Descript.h" />
+    <ClInclude Include="PracticalMode.h" />
+    <ClInclude Include="Level.h" />
+    <ClInclude Include="KingMogura.h" />
+    <ClInclude Include="Metooru.h" />
+    <ClInclude Include="Zaku.h" />
+    <ClInclude Include="PracticalEND.h" />
+    <ClInclude Include="otalScore.h" />
+    <ClInclude Include="FeintMogura.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Game.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <MeshContentTask Include="Assets\modelData\unityChan.fbx">
+      <Filter>Assets\modelData</Filter>
+    </MeshContentTask>
+    <MeshContentTask Include="Assets\modelData\hammer.FBX">
+      <Filter>Assets\modelData</Filter>
+    </MeshContentTask>
+    <MeshContentTask Include="Assets\modelData\mogura.FBX">
+      <Filter>Assets\modelData</Filter>
+    </MeshContentTask>
+    <MeshContentTask Include="Assets\modelData\ground.FBX" />
+    <MeshContentTask Include="Assets\modelData\Hole.FBX" />
+    <MeshContentTask Include="Assets\modelData\AttackZone.FBX" />
+    <MeshContentTask Include="Assets\modelData\moguri.FBX" />
+    <MeshContentTask Include="Assets\modelData\Metooru.FBX" />
+    <MeshContentTask Include="Assets\modelData\KingMogura.FBX" />
+    <MeshContentTask Include="Assets\modelData\AkaiZakuMogura.FBX" />
+  </ItemGroup>
+  <ItemGroup>
+    <ImageContentTask Include="Assets\sprite\dummy.png">
+      <Filter>Assets\sprite</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="Assets\sprite\start title.png" />
+    <ImageContentTask Include="Assets\sprite\Game_Over.png" />
+    <ImageContentTask Include="Assets\sprite\Game_Clear.png" />
+    <ImageContentTask Include="Assets\sprite\yajirusi.png" />
+    <ImageContentTask Include="Assets\sprite\PracticalMode.png" />
+    <ImageContentTask Include="Assets\sprite\Level.png" />
+    <ImageContentTask Include="Assets\sprite\BackGround.png" />
+    <ImageContentTask Include="Assets\sprite\NormalSetumei.png" />
+    <ImageContentTask Include="Assets\sprite\HardSetumei.png" />
+    <ImageContentTask Include="Assets\sprite\EasySetumei.png" />
+    <ImageContentTask Include="Assets\sprite\White.png" />
+    <ImageContentTask Include="Assets\sprite\PracticalEND.png" />
+    <ImageContentTask Include="Assets\sprite\UnderTimer.png" />
+    <ImageContentTask Include="Assets\sprite\Timer.png" />
+    <ImageContentTask Include="Assets\sprite\FiverTime.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Resource\sprite\Game_Over.dds" />
+    <Image Include="..\tkTools\Effekseer132\Sample\01_Pierre01\Texture\Burst_1.png" />
+    <Image Include="..\tkTools\Effekseer132\Sample\01_Pierre01\Texture\Burst_2.png" />
+    <Image Include="..\tkTools\Effekseer132\Sample\01_Pierre01\Texture\ExperimentalBlur.png" />
+    <Image Include="..\tkTools\Effekseer132\Sample\01_Pierre01\Texture\ExperimentalNoise.png" />
+    <Image Include="..\tkTools\Effekseer132\Sample\01_Pierre01\Texture\Fire.png" />
+    <Image Include="..\tkTools\Effekseer132\Sample\01_Pierre01\Texture\Fire_Blur.png" />
+    <Image Include="..\tkTools\Effekseer132\Sample\01_Pierre01\Texture\Fire_Single.png" />
+    <Image Include="..\tkTools\Effekseer132\Sample\01_Pierre01\Texture\Glass.png" />
+    <Image Include="..\tkTools\Effekseer132\Sample\01_Pierre01\Texture\Halo.png" />
+    <Image Include="..\tkTools\Effekseer132\Sample\01_Pierre01\Texture\IntensiveLine.png" />
+    <Image Include="..\tkTools\Effekseer132\Sample\01_Pierre01\Texture\NoiseAnimation.png" />
+    <Image Include="..\tkTools\Effekseer132\Sample\01_Pierre01\Texture\Particle_Hard.png" />
+    <Image Include="..\tkTools\Effekseer132\Sample\01_Pierre01\Texture\Particle_Soft.png" />
+    <Image Include="..\tkTools\Effekseer132\Sample\01_Pierre01\Texture\Shockwave.png" />
+    <Image Include="..\tkTools\Effekseer132\Sample\01_Pierre01\Texture\Smoke.png" />
+    <Image Include="..\tkTools\Effekseer132\Sample\01_Pierre01\Texture\Splash.png" />
+    <Image Include="..\tkTools\Effekseer132\Sample\01_Pierre01\Texture\Star.png" />
+    <Image Include="..\tkTools\Effekseer132\Sample\01_Pierre01\Texture\Tentacle.png" />
+    <Image Include="..\tkTools\Effekseer132\Sample\01_Pierre01\Texture\Thunder_Bold.png" />
+    <Image Include="..\tkTools\Effekseer132\Sample\01_Pierre01\Texture\Thunder_Thin.png" />
+    <Image Include="..\tkTools\Effekseer132\Sample\01_Pierre01\Texture\Wind.png" />
+    <Image Include="Assets\sprite\start title.dds" />
+    <Image Include="Assets\sprite\PracticalMode.dds" />
+    <Image Include="Assets\modelData\ZakuAi.png" />
+    <Image Include="Assets\modelData\MetooruNeji.png" />
+    <Image Include="Assets\modelData\MetooruMetMark.png" />
+    <Image Include="Assets\modelData\MetooruAi.png" />
+    <Image Include="Assets\modelData\AkaiZakuAi.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="Assets\sound\backboostar.wav" />
+    <CustomBuild Include="Assets\sound\candybouquet.wav" />
+    <CustomBuild Include="Assets\sound\bgm_maoudamashii_8bit13.wav" />
+    <CustomBuild Include="Assets\sound\GameClareSE.wav" />
+    <CustomBuild Include="Assets\sound\GameOverSE.wav" />
+    <CustomBuild Include="Assets\sound\Select.wav" />
+    <CustomBuild Include="Assets\sound\Cancel.wav" />
+    <CustomBuild Include="Assets\sound\whistle.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\tkTools\Effekseer132\Sample\01_Pierre02\Benediction.efkproj" />
+  </ItemGroup>
+</Project>
